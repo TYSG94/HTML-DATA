@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS=false; L_NO_TOUCH=false; L_DISABLE_3D=false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+    <meta name="viewport" content="width=device-width,
+        initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <style>#map_4a4ce325fa144fc6a66eea18107183cd {
+        position: relative;
+        width: 100.0%;
+        height: 100.0%;
+        left: 0.0%;
+        top: 0.0%;
+        }
+    </style>
+</head>
+<body>    
+    
+    <div class="folium-map" id="map_4a4ce325fa144fc6a66eea18107183cd" ></div>
+</body>
+<script>    
+    
+    
+        var bounds = null;
+    
+
+    var map_4a4ce325fa144fc6a66eea18107183cd = L.map(
+        'map_4a4ce325fa144fc6a66eea18107183cd', {
+        center: [-6.2, 106.816666],
+        zoom: 11,
+        maxBounds: bounds,
+        layers: [],
+        worldCopyJump: false,
+        crs: L.CRS.EPSG3857,
+        zoomControl: true,
+        });
+
+
+    
+    var tile_layer_99b35087312e4fdb889637fad4c326df = L.tileLayer(
+        'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png',
+        {
+        "attribution": null,
+        "detectRetina": false,
+        "maxNativeZoom": 18,
+        "maxZoom": 18,
+        "minZoom": 0,
+        "noWrap": false,
+        "opacity": 1,
+        "subdomains": "abc",
+        "tms": false
+}).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+    
+        var marker_214d550d4e3442f4a52c401643448355 = L.marker(
+            [-6.340723147, 106.9033359],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_aa8ac8436ffe4b52a65a86b4c063ed30 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_214d550d4e3442f4a52c401643448355.setIcon(icon_aa8ac8436ffe4b52a65a86b4c063ed30);
+            
+    
+            var popup_0166346285f54c36bcc397c4bf1a4d86 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d644a97f429846f1b569e46f319f6ef0 = $(`<div id="html_d644a97f429846f1b569e46f319f6ef0" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_0166346285f54c36bcc397c4bf1a4d86.setContent(html_d644a97f429846f1b569e46f319f6ef0);
+            
+
+            marker_214d550d4e3442f4a52c401643448355.bindPopup(popup_0166346285f54c36bcc397c4bf1a4d86)
+            ;
+
+            
+        
+    
+        marker_214d550d4e3442f4a52c401643448355.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_69648b3346c64418891985eb4ee077cb = L.marker(
+            [-6.30791258, 106.8633066],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_d300409d6bf7416882760da2afad135c = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_69648b3346c64418891985eb4ee077cb.setIcon(icon_d300409d6bf7416882760da2afad135c);
+            
+    
+            var popup_d940ca2204a64fdda60c1ca4b8629139 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_c497be10e35947f78e8bfb0a595411bd = $(`<div id="html_c497be10e35947f78e8bfb0a595411bd" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_d940ca2204a64fdda60c1ca4b8629139.setContent(html_c497be10e35947f78e8bfb0a595411bd);
+            
+
+            marker_69648b3346c64418891985eb4ee077cb.bindPopup(popup_d940ca2204a64fdda60c1ca4b8629139)
+            ;
+
+            
+        
+    
+        marker_69648b3346c64418891985eb4ee077cb.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_2574e31a1bc34ca883ab2c1f7ea4af59 = L.marker(
+            [-6.285600637, 106.8829479],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_ba2245d2f5314f9fab489ad0955e8b28 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2574e31a1bc34ca883ab2c1f7ea4af59.setIcon(icon_ba2245d2f5314f9fab489ad0955e8b28);
+            
+    
+            var popup_15c535ab46724fd7a40ee1f0f7b13452 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_cf4b25c216bf44d7a2a6a42cfe028c28 = $(`<div id="html_cf4b25c216bf44d7a2a6a42cfe028c28" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_15c535ab46724fd7a40ee1f0f7b13452.setContent(html_cf4b25c216bf44d7a2a6a42cfe028c28);
+            
+
+            marker_2574e31a1bc34ca883ab2c1f7ea4af59.bindPopup(popup_15c535ab46724fd7a40ee1f0f7b13452)
+            ;
+
+            
+        
+    
+        marker_2574e31a1bc34ca883ab2c1f7ea4af59.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_1208e50208664a2496e25d503d7cc996 = L.marker(
+            [-6.286558643, 106.8615445],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_c0130bd53d524768ae963ce97d9c3a15 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1208e50208664a2496e25d503d7cc996.setIcon(icon_c0130bd53d524768ae963ce97d9c3a15);
+            
+    
+            var popup_e76be193d95e4fc799a3422e40043ac6 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d354219c399e448486725f7cddd5720d = $(`<div id="html_d354219c399e448486725f7cddd5720d" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_e76be193d95e4fc799a3422e40043ac6.setContent(html_d354219c399e448486725f7cddd5720d);
+            
+
+            marker_1208e50208664a2496e25d503d7cc996.bindPopup(popup_e76be193d95e4fc799a3422e40043ac6)
+            ;
+
+            
+        
+    
+        marker_1208e50208664a2496e25d503d7cc996.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_2b4fc464f54d4ece88b594ae3d82db9e = L.marker(
+            [-6.275957948, 106.8762859],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_6bf0a12fad214d3daa6472ad126f3821 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2b4fc464f54d4ece88b594ae3d82db9e.setIcon(icon_6bf0a12fad214d3daa6472ad126f3821);
+            
+    
+            var popup_cbb3fda0b119400ba73156b5881752b2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_bc17b099c58e48a9bea06d154b31086e = $(`<div id="html_bc17b099c58e48a9bea06d154b31086e" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_cbb3fda0b119400ba73156b5881752b2.setContent(html_bc17b099c58e48a9bea06d154b31086e);
+            
+
+            marker_2b4fc464f54d4ece88b594ae3d82db9e.bindPopup(popup_cbb3fda0b119400ba73156b5881752b2)
+            ;
+
+            
+        
+    
+        marker_2b4fc464f54d4ece88b594ae3d82db9e.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_15269188e7c1484691355fe164a654de = L.marker(
+            [-6.265862344, 106.8670928],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_a5facb4528904a1b9b88449d323ce6ad = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_15269188e7c1484691355fe164a654de.setIcon(icon_a5facb4528904a1b9b88449d323ce6ad);
+            
+    
+            var popup_8504d81fa33442488ae7615d70ba9c61 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_3fb30785fea040fb876365245a76781a = $(`<div id="html_3fb30785fea040fb876365245a76781a" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_8504d81fa33442488ae7615d70ba9c61.setContent(html_3fb30785fea040fb876365245a76781a);
+            
+
+            marker_15269188e7c1484691355fe164a654de.bindPopup(popup_8504d81fa33442488ae7615d70ba9c61)
+            ;
+
+            
+        
+    
+        marker_15269188e7c1484691355fe164a654de.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_95d4ef429ca9476f80d403fe7549e093 = L.marker(
+            [-6.26126213, 106.8645385],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_5f4728abbe6144d18f603bb5004b91c2 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_95d4ef429ca9476f80d403fe7549e093.setIcon(icon_5f4728abbe6144d18f603bb5004b91c2);
+            
+    
+            var popup_6e71f2792a5e4ef68113d6b57b3c0d4b = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5133e6e828ed4671aa6bf6e0e2675bd6 = $(`<div id="html_5133e6e828ed4671aa6bf6e0e2675bd6" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_6e71f2792a5e4ef68113d6b57b3c0d4b.setContent(html_5133e6e828ed4671aa6bf6e0e2675bd6);
+            
+
+            marker_95d4ef429ca9476f80d403fe7549e093.bindPopup(popup_6e71f2792a5e4ef68113d6b57b3c0d4b)
+            ;
+
+            
+        
+    
+        marker_95d4ef429ca9476f80d403fe7549e093.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_336dbaac22d345819843318042a6ce17 = L.marker(
+            [-6.251324978, 106.8678864],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_a7654da14f59473bba4b4d6853b5a11e = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_336dbaac22d345819843318042a6ce17.setIcon(icon_a7654da14f59473bba4b4d6853b5a11e);
+            
+    
+            var popup_9a42f98822644f0f994b8c70c81c4930 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_0522e1021ccd4bbeb5760e3a1c774601 = $(`<div id="html_0522e1021ccd4bbeb5760e3a1c774601" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_9a42f98822644f0f994b8c70c81c4930.setContent(html_0522e1021ccd4bbeb5760e3a1c774601);
+            
+
+            marker_336dbaac22d345819843318042a6ce17.bindPopup(popup_9a42f98822644f0f994b8c70c81c4930)
+            ;
+
+            
+        
+    
+        marker_336dbaac22d345819843318042a6ce17.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_fc83a105e9654da9bc6d8f89a0847967 = L.marker(
+            [-6.255075118, 106.9104958],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_0e09d044edcd4cc4a8e819205fba67d0 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fc83a105e9654da9bc6d8f89a0847967.setIcon(icon_0e09d044edcd4cc4a8e819205fba67d0);
+            
+    
+            var popup_12620b7ee2074e7fbdf4c48037953825 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_5fc7303c24d340d6a7efd53b31d8f0c3 = $(`<div id="html_5fc7303c24d340d6a7efd53b31d8f0c3" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_12620b7ee2074e7fbdf4c48037953825.setContent(html_5fc7303c24d340d6a7efd53b31d8f0c3);
+            
+
+            marker_fc83a105e9654da9bc6d8f89a0847967.bindPopup(popup_12620b7ee2074e7fbdf4c48037953825)
+            ;
+
+            
+        
+    
+        marker_fc83a105e9654da9bc6d8f89a0847967.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_464e6afb70214ea4b8621f4514892c84 = L.marker(
+            [-6.251324186, 106.8678858],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_eaa58b2387534dde9cc9843b45e1dafe = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_464e6afb70214ea4b8621f4514892c84.setIcon(icon_eaa58b2387534dde9cc9843b45e1dafe);
+            
+    
+            var popup_f9042f470c3b449594a3ae7436e580ee = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_4fe48948b91a44f59d9a19069a23827a = $(`<div id="html_4fe48948b91a44f59d9a19069a23827a" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_f9042f470c3b449594a3ae7436e580ee.setContent(html_4fe48948b91a44f59d9a19069a23827a);
+            
+
+            marker_464e6afb70214ea4b8621f4514892c84.bindPopup(popup_f9042f470c3b449594a3ae7436e580ee)
+            ;
+
+            
+        
+    
+        marker_464e6afb70214ea4b8621f4514892c84.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_eb247cdbabd84990a9da378f431c08e0 = L.marker(
+            [-6.227945698, 106.8842404],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_d68cf7182f34466982bd1ee96020b0a1 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_eb247cdbabd84990a9da378f431c08e0.setIcon(icon_d68cf7182f34466982bd1ee96020b0a1);
+            
+    
+            var popup_931e01ae13c847508a3fafd2a782cf6f = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_daadbab0016748d0a8f52bf9b936b2b4 = $(`<div id="html_daadbab0016748d0a8f52bf9b936b2b4" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_931e01ae13c847508a3fafd2a782cf6f.setContent(html_daadbab0016748d0a8f52bf9b936b2b4);
+            
+
+            marker_eb247cdbabd84990a9da378f431c08e0.bindPopup(popup_931e01ae13c847508a3fafd2a782cf6f)
+            ;
+
+            
+        
+    
+        marker_eb247cdbabd84990a9da378f431c08e0.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_0171d14eb1934648954d2cfca0d5e31e = L.marker(
+            [-6.224448536, 106.8684743],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_d5a541b7c12c4907825de0bac7b251e6 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_0171d14eb1934648954d2cfca0d5e31e.setIcon(icon_d5a541b7c12c4907825de0bac7b251e6);
+            
+    
+            var popup_fcafdbf250014b6c91d4d07caca20850 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_ec82fbe83fdd489c8cf72380173d30ae = $(`<div id="html_ec82fbe83fdd489c8cf72380173d30ae" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_fcafdbf250014b6c91d4d07caca20850.setContent(html_ec82fbe83fdd489c8cf72380173d30ae);
+            
+
+            marker_0171d14eb1934648954d2cfca0d5e31e.bindPopup(popup_fcafdbf250014b6c91d4d07caca20850)
+            ;
+
+            
+        
+    
+        marker_0171d14eb1934648954d2cfca0d5e31e.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_193c136d60d34e7685390539262eeeb5 = L.marker(
+            [-6.221102181, 106.8859942],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_7ef00dd9f2f64c6f80a97f84c6010ccf = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_193c136d60d34e7685390539262eeeb5.setIcon(icon_7ef00dd9f2f64c6f80a97f84c6010ccf);
+            
+    
+            var popup_13aa176f2c1f4366b8177c8a14475d23 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_00d6f6c3caba434c80a50f293cd575f0 = $(`<div id="html_00d6f6c3caba434c80a50f293cd575f0" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_13aa176f2c1f4366b8177c8a14475d23.setContent(html_00d6f6c3caba434c80a50f293cd575f0);
+            
+
+            marker_193c136d60d34e7685390539262eeeb5.bindPopup(popup_13aa176f2c1f4366b8177c8a14475d23)
+            ;
+
+            
+        
+    
+        marker_193c136d60d34e7685390539262eeeb5.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_8dc289c2df68456383e06654eee8a3af = L.marker(
+            [-6.214120101, 106.8627364],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_13dbbf5e33204404b9e0c61b59aaba7e = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8dc289c2df68456383e06654eee8a3af.setIcon(icon_13dbbf5e33204404b9e0c61b59aaba7e);
+            
+    
+            var popup_0db283596f7d4d80acec335397169d21 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9b5241baed474e708b753bb2b6d5df38 = $(`<div id="html_9b5241baed474e708b753bb2b6d5df38" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_0db283596f7d4d80acec335397169d21.setContent(html_9b5241baed474e708b753bb2b6d5df38);
+            
+
+            marker_8dc289c2df68456383e06654eee8a3af.bindPopup(popup_0db283596f7d4d80acec335397169d21)
+            ;
+
+            
+        
+    
+        marker_8dc289c2df68456383e06654eee8a3af.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_79f6ddf2948c4415be2a507f34a47320 = L.marker(
+            [-6.198948187, 106.8550743],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_ccdb31556aae49baa91932732c16604b = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_79f6ddf2948c4415be2a507f34a47320.setIcon(icon_ccdb31556aae49baa91932732c16604b);
+            
+    
+            var popup_dbe94cebf818434c9e72c1e766f428ca = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9e807dda0a5a4498b6a4958bbc4c6352 = $(`<div id="html_9e807dda0a5a4498b6a4958bbc4c6352" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_dbe94cebf818434c9e72c1e766f428ca.setContent(html_9e807dda0a5a4498b6a4958bbc4c6352);
+            
+
+            marker_79f6ddf2948c4415be2a507f34a47320.bindPopup(popup_dbe94cebf818434c9e72c1e766f428ca)
+            ;
+
+            
+        
+    
+        marker_79f6ddf2948c4415be2a507f34a47320.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_3f476824226f42fb855709e6f8b40baa = L.marker(
+            [-6.194196531, 106.9012364],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_8c0daff3472f43feaad76c6643d92ebb = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_3f476824226f42fb855709e6f8b40baa.setIcon(icon_8c0daff3472f43feaad76c6643d92ebb);
+            
+    
+            var popup_b3e57dc1581a4f68b0c37a76a5cb6237 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_d8efa17244f9419daf3002677333992b = $(`<div id="html_d8efa17244f9419daf3002677333992b" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_b3e57dc1581a4f68b0c37a76a5cb6237.setContent(html_d8efa17244f9419daf3002677333992b);
+            
+
+            marker_3f476824226f42fb855709e6f8b40baa.bindPopup(popup_b3e57dc1581a4f68b0c37a76a5cb6237)
+            ;
+
+            
+        
+    
+        marker_3f476824226f42fb855709e6f8b40baa.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_41b1c06bc484487fb818919e79758eaf = L.marker(
+            [-6.251247705, 106.8892141],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_4609de5903ce47f2ac45d63c2ce2dbe2 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_41b1c06bc484487fb818919e79758eaf.setIcon(icon_4609de5903ce47f2ac45d63c2ce2dbe2);
+            
+    
+            var popup_1a38391ce0a344e1986132cda3a70794 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_075f1b1e79984a0d80e221d2a88c70ad = $(`<div id="html_075f1b1e79984a0d80e221d2a88c70ad" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_1a38391ce0a344e1986132cda3a70794.setContent(html_075f1b1e79984a0d80e221d2a88c70ad);
+            
+
+            marker_41b1c06bc484487fb818919e79758eaf.bindPopup(popup_1a38391ce0a344e1986132cda3a70794)
+            ;
+
+            
+        
+    
+        marker_41b1c06bc484487fb818919e79758eaf.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_d210c1a51d8b4b4aba6b5e0e3ba21778 = L.marker(
+            [-6.255091753, 106.9104961],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_f04f463ec8ce4dec9e15954a06f554bc = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d210c1a51d8b4b4aba6b5e0e3ba21778.setIcon(icon_f04f463ec8ce4dec9e15954a06f554bc);
+            
+    
+            var popup_fe968b5683c4449a94939aaff81858f2 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1fcadd35b50341349e2eec8c4b8e39b8 = $(`<div id="html_1fcadd35b50341349e2eec8c4b8e39b8" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_fe968b5683c4449a94939aaff81858f2.setContent(html_1fcadd35b50341349e2eec8c4b8e39b8);
+            
+
+            marker_d210c1a51d8b4b4aba6b5e0e3ba21778.bindPopup(popup_fe968b5683c4449a94939aaff81858f2)
+            ;
+
+            
+        
+    
+        marker_d210c1a51d8b4b4aba6b5e0e3ba21778.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_18235bbb9d184ec2b1aeb2aaf3919117 = L.marker(
+            [-6.234434509, 106.8744392],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_930094d2014346dda85b8ad2e9db96ea = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_18235bbb9d184ec2b1aeb2aaf3919117.setIcon(icon_930094d2014346dda85b8ad2e9db96ea);
+            
+    
+            var popup_ae32fd28b8bc48ab9637914e35a00efe = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b2f98bbd207c42aca3ed715e56fc741d = $(`<div id="html_b2f98bbd207c42aca3ed715e56fc741d" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_ae32fd28b8bc48ab9637914e35a00efe.setContent(html_b2f98bbd207c42aca3ed715e56fc741d);
+            
+
+            marker_18235bbb9d184ec2b1aeb2aaf3919117.bindPopup(popup_ae32fd28b8bc48ab9637914e35a00efe)
+            ;
+
+            
+        
+    
+        marker_18235bbb9d184ec2b1aeb2aaf3919117.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_2195a3bb58c943e08542c27067df5fd7 = L.marker(
+            [-6.23189419, 106.897512],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_1007772f02344f3f93c3e41b5323baf4 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2195a3bb58c943e08542c27067df5fd7.setIcon(icon_1007772f02344f3f93c3e41b5323baf4);
+            
+    
+            var popup_60440b7748374df9b71203ff4ea84d38 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_52b9fe6ea32f4444b9e2f709d468f33f = $(`<div id="html_52b9fe6ea32f4444b9e2f709d468f33f" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_60440b7748374df9b71203ff4ea84d38.setContent(html_52b9fe6ea32f4444b9e2f709d468f33f);
+            
+
+            marker_2195a3bb58c943e08542c27067df5fd7.bindPopup(popup_60440b7748374df9b71203ff4ea84d38)
+            ;
+
+            
+        
+    
+        marker_2195a3bb58c943e08542c27067df5fd7.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_7994abb6b3a543ee81022d7ea4c75bec = L.marker(
+            [-6.221531848, 106.932292],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_2ebad81deb3a429692a371e5422ff49c = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_7994abb6b3a543ee81022d7ea4c75bec.setIcon(icon_2ebad81deb3a429692a371e5422ff49c);
+            
+    
+            var popup_0076d5b1f3dc416f917b819f7493221c = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_a4b7d0780c2f433c89a65e0187aa92cb = $(`<div id="html_a4b7d0780c2f433c89a65e0187aa92cb" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_0076d5b1f3dc416f917b819f7493221c.setContent(html_a4b7d0780c2f433c89a65e0187aa92cb);
+            
+
+            marker_7994abb6b3a543ee81022d7ea4c75bec.bindPopup(popup_0076d5b1f3dc416f917b819f7493221c)
+            ;
+
+            
+        
+    
+        marker_7994abb6b3a543ee81022d7ea4c75bec.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_a5e0ba4ddc794bc3ac864fb8ffe8f532 = L.marker(
+            [-6.219630185, 106.900873],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_a9a4a97809d746c3a628704de39b169f = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a5e0ba4ddc794bc3ac864fb8ffe8f532.setIcon(icon_a9a4a97809d746c3a628704de39b169f);
+            
+    
+            var popup_8719424a908840bf8dd2d1ec0c2ddfc1 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_9a315aee597d491fac2abc85a22b4b8d = $(`<div id="html_9a315aee597d491fac2abc85a22b4b8d" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_8719424a908840bf8dd2d1ec0c2ddfc1.setContent(html_9a315aee597d491fac2abc85a22b4b8d);
+            
+
+            marker_a5e0ba4ddc794bc3ac864fb8ffe8f532.bindPopup(popup_8719424a908840bf8dd2d1ec0c2ddfc1)
+            ;
+
+            
+        
+    
+        marker_a5e0ba4ddc794bc3ac864fb8ffe8f532.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_88c8b09fe9794b788b5b2fa7ddf57aac = L.marker(
+            [-6.221139107, 106.8860203],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_2ba0f75968714017a7f5a6ed2df64afc = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_88c8b09fe9794b788b5b2fa7ddf57aac.setIcon(icon_2ba0f75968714017a7f5a6ed2df64afc);
+            
+    
+            var popup_8d0b71b46d5a4a6c877b6405c8154af7 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_f5407e1b3a2342f3991bd6a958064ecc = $(`<div id="html_f5407e1b3a2342f3991bd6a958064ecc" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_8d0b71b46d5a4a6c877b6405c8154af7.setContent(html_f5407e1b3a2342f3991bd6a958064ecc);
+            
+
+            marker_88c8b09fe9794b788b5b2fa7ddf57aac.bindPopup(popup_8d0b71b46d5a4a6c877b6405c8154af7)
+            ;
+
+            
+        
+    
+        marker_88c8b09fe9794b788b5b2fa7ddf57aac.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_4eec05f01fb643caa9812d871e162397 = L.marker(
+            [-6.214115474, 106.8627126],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_d47e16a6e6e347d0b834b53c463260b0 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4eec05f01fb643caa9812d871e162397.setIcon(icon_d47e16a6e6e347d0b834b53c463260b0);
+            
+    
+            var popup_3496f1bcdd0342f29f7cc4baaa29f235 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_55403c1c89d340a2b702acd30c9b939f = $(`<div id="html_55403c1c89d340a2b702acd30c9b939f" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_3496f1bcdd0342f29f7cc4baaa29f235.setContent(html_55403c1c89d340a2b702acd30c9b939f);
+            
+
+            marker_4eec05f01fb643caa9812d871e162397.bindPopup(popup_3496f1bcdd0342f29f7cc4baaa29f235)
+            ;
+
+            
+        
+    
+        marker_4eec05f01fb643caa9812d871e162397.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_de117141f04048f3bba626097785c9fe = L.marker(
+            [-6.203784811, 106.9358667],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_f3c369f3cd9840c5993266bea939bed9 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_de117141f04048f3bba626097785c9fe.setIcon(icon_f3c369f3cd9840c5993266bea939bed9);
+            
+    
+            var popup_43d0c0bcd6094023aa1b2b9e262db0c4 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_1e3f8929c9b84846885354ae88fddfb3 = $(`<div id="html_1e3f8929c9b84846885354ae88fddfb3" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_43d0c0bcd6094023aa1b2b9e262db0c4.setContent(html_1e3f8929c9b84846885354ae88fddfb3);
+            
+
+            marker_de117141f04048f3bba626097785c9fe.bindPopup(popup_43d0c0bcd6094023aa1b2b9e262db0c4)
+            ;
+
+            
+        
+    
+        marker_de117141f04048f3bba626097785c9fe.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_f8d9749bad7a4858af66149526c9df64 = L.marker(
+            [-6.198040094, 106.8894464],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_a86338070c114db0b0d7a70df485c567 = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f8d9749bad7a4858af66149526c9df64.setIcon(icon_a86338070c114db0b0d7a70df485c567);
+            
+    
+            var popup_4dd115adb9d84376b3e917f70eb9cfe5 = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_b8cc12f372794a9c870c7085fd795fb1 = $(`<div id="html_b8cc12f372794a9c870c7085fd795fb1" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_4dd115adb9d84376b3e917f70eb9cfe5.setContent(html_b8cc12f372794a9c870c7085fd795fb1);
+            
+
+            marker_f8d9749bad7a4858af66149526c9df64.bindPopup(popup_4dd115adb9d84376b3e917f70eb9cfe5)
+            ;
+
+            
+        
+    
+        marker_f8d9749bad7a4858af66149526c9df64.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+    
+        var marker_9c12f154b79c48c2aa763be05bd6d61f = L.marker(
+            [-6.188342588, 106.8969468],
+            {
+                icon: new L.Icon.Default(),
+                }
+            ).addTo(map_4a4ce325fa144fc6a66eea18107183cd);
+        
+    
+
+                var icon_6f08d00673f1405a878a74de6083fe8e = L.AwesomeMarkers.icon({
+                    icon: 'none',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9c12f154b79c48c2aa763be05bd6d61f.setIcon(icon_6f08d00673f1405a878a74de6083fe8e);
+            
+    
+            var popup_5a2349e5666c4fa89b30659faefa871d = L.popup({maxWidth: '100%'
+            
+            });
+
+            
+                var html_99f26a2194db4fa9b29448e1e878a725 = $(`<div id="html_99f26a2194db4fa9b29448e1e878a725" style="width: 100.0%; height: 100.0%;">Pos Indonesia</div>`)[0];
+                popup_5a2349e5666c4fa89b30659faefa871d.setContent(html_99f26a2194db4fa9b29448e1e878a725);
+            
+
+            marker_9c12f154b79c48c2aa763be05bd6d61f.bindPopup(popup_5a2349e5666c4fa89b30659faefa871d)
+            ;
+
+            
+        
+    
+        marker_9c12f154b79c48c2aa763be05bd6d61f.bindTooltip(
+            `<div>`
+            + `<strong>Click here to see Popup</strong>` + `</div>`,
+            {"sticky": true}
+        );
+        
+</script>
